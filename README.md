@@ -1,24 +1,23 @@
-# test
+# Vuetify with WC as build
+
+I am trying to build my project as web component but I can not do it with vuetify.
+When I include vuetify I am not getting any of the style. 
+I already tried [this link](https://stackoverflow.com/questions/55467240/how-do-you-include-vuetify-inside-web-component)
+steps to reproduce install and run wc and I added the ```<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/vuetify/dist/vuetify.min.css">``` inside
+
 
 ## Project setup
 ```
 npm install
 ```
-
-### Compiles and hot-reloads for development
+### Compiles and show the web component with inline configuration
 ```
-npm run serve
-```
-
-### Compiles and minifies for production
-```
-npm run build
+npm run wcin
 ```
 
-### Lints and fixes files
+### Compiles and show web component
 ```
-npm run lint
+npm run wc
 ```
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+
