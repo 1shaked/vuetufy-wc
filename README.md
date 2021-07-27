@@ -20,4 +20,6 @@ npm run wcin
 npm run wc
 ```
 
+Also I tried to add import 'vuetify/dist/vuetify.min.css' into plugins/vuetify.js
+
 
